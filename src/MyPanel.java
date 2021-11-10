@@ -221,10 +221,10 @@ public class MyPanel extends JPanel {
                     }
                 }
                 repaint();
-                for(Square s:listaSquares)
+               /* for(Square s:listaSquares)
                 {
                     s.setPartOfPath(false);
-                }
+                }*/
             }
         }
     }
