@@ -40,6 +40,7 @@ public class MyPanel extends JPanel {
             pointx = initialx;
             pointy += latura;
         }
+
         repaint();
         BFS(Intrari, Iesiri);
     }
